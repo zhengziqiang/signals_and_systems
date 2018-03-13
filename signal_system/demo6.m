@@ -1,0 +1,9 @@
+n0=-10;nf=10;ns=-3;n=n0:nf;
+x1=[zeros(1,ns-n0),1,zeros(1,nf-ns)];%这里起到一个concate的作用
+figure(1);
+stem(n,x1);
+title('单位脉冲序列');
+x2=[zeros(1,ns-n0),1,ones(1,nf-ns)];
+figure(2);
+stem(n,x2);
+title('单位阶跃序列');

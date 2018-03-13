@@ -1,0 +1,13 @@
+n=-2:5;
+subplot(2,2,1)
+x1=1.2.^n.*u(n);stem(n,x1);
+title('1.2^n*u(n)');
+subplot(2,2,2)
+x2=0.6.^n.*u(n);stem(n,x2);
+title('0.6^n*u(n)');
+subplot(2,2,3)
+x3=(-1.5).^n.*u(n);stem(n,x3);
+title('(-1.5)^n*u(n)');
+subplot(2,2,4)
+x4=(-0.8).^n.*u(n);stem(n,x4);
+title('(-0.8)^n*u(n)');
